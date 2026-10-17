@@ -1,0 +1,9 @@
+# Xcode
+DerivedData/
+build/
+*.xcuserstate
+xcuserdata/
+*.xcscmblueprint
+.DS_Store
+# Create ML output (commit it if you want the trained model in the repo)
+MLTraining/*.mlmodel
