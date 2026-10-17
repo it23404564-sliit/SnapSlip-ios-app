@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		20849549347EDCB8290CB760 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47306241C69A76088F0471A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C840E912AF71CA83C6414B3;
+			remoteInfo = SnapSlipSpatial;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		70DC5E717F673EFCA5322760 /* SnapSlipSpatial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapSlipSpatial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC58F9103311AE64B1182E25 /* SnapSlipSpatialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapSlipSpatialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		8F0BB873E56A72416E8D937A /* SnapSlipSpatial */ = {isa = PBXFileSystemSynchronizedRootGroup; path = SnapSlipSpatial; sourceTree = "<group>"; };
+		1125FDF1E6DBE164E7E384ED /* SnapSlipSpatialTests */ = {isa = PBXFileSystemSynchronizedRootGroup; path = SnapSlipSpatialTests; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5B6589A2B7371BCB27ED409 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE5E9376C0658AC2A2921143 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46AFC5D2513A6222C932F96E = {
+			isa = PBXGroup;
+			children = (
+				8F0BB873E56A72416E8D937A /* SnapSlipSpatial */,
+				1125FDF1E6DBE164E7E384ED /* SnapSlipSpatialTests */,
+				2C625F17B6A612BCB0ED88FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2C625F17B6A612BCB0ED88FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70DC5E717F673EFCA5322760 /* SnapSlipSpatial.app */,
+				EC58F9103311AE64B1182E25 /* SnapSlipSpatialTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C840E912AF71CA83C6414B3 /* SnapSlipSpatial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D4F85EE63ACBE9CC0CE2AF9 /* Build configuration list for PBXNativeTarget "SnapSlipSpatial" */;
+			buildPhases = (
+				6B06304FAEFCD3C1698011AA /* Sources */,
+				D5B6589A2B7371BCB27ED409 /* Frameworks */,
+				4C42C642F156E7D88B44F8E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				8F0BB873E56A72416E8D937A /* SnapSlipSpatial */,
+			);
+			name = SnapSlipSpatial;
+			packageProductDependencies = (
+			);
+			productName = SnapSlipSpatial;
+			productReference = 70DC5E717F673EFCA5322760 /* SnapSlipSpatial.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5A31402278348A8BC5E51C59 /* SnapSlipSpatialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDF6AC006ACBF0656E2E16E2 /* Build configuration list for PBXNativeTarget "SnapSlipSpatialTests" */;
+			buildPhases = (
+				B3A8599D5E55CFD4E679BBEE /* Sources */,
+				DE5E9376C0658AC2A2921143 /* Frameworks */,
+				4E02398AD47360A44060B1FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F256C51FDABB297D7957C6E8 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1125FDF1E6DBE164E7E384ED /* SnapSlipSpatialTests */,
+			);
+			name = SnapSlipSpatialTests;
+			packageProductDependencies = (
+			);
+			productName = SnapSlipSpatialTests;
+			productReference = EC58F9103311AE64B1182E25 /* SnapSlipSpatialTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47306241C69A76088F0471A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					9C840E912AF71CA83C6414B3 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					5A31402278348A8BC5E51C59 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 9C840E912AF71CA83C6414B3;
+					};
+				};
+			};
+			buildConfigurationList = 5D28D13D4C66E177D2406776 /* Build configuration list for PBXProject "SnapSlipSpatial" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 46AFC5D2513A6222C932F96E;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 2C625F17B6A612BCB0ED88FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C840E912AF71CA83C6414B3 /* SnapSlipSpatial */,
+				5A31402278348A8BC5E51C59 /* SnapSlipSpatialTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C42C642F156E7D88B44F8E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E02398AD47360A44060B1FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B06304FAEFCD3C1698011AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3A8599D5E55CFD4E679BBEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F256C51FDABB297D7957C6E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C840E912AF71CA83C6414B3 /* SnapSlipSpatial */;
+			targetProxy = 20849549347EDCB8290CB760 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F79DAEC3D274787EA836EAB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Config/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "SnapSlip Spatial";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lk.sliit.snapslip.spatial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = xros;
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 7;
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		87AC411E93E29C0FCB344AD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Config/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "SnapSlip Spatial";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lk.sliit.snapslip.spatial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = xros;
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 7;
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		91DD61D72421367174D7A7E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lk.sliit.snapslip.spatial.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = xros;
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 7;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnapSlipSpatial.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SnapSlipSpatial";
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		D93F6C3180B5047CD9191A2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lk.sliit.snapslip.spatial.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = xros;
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 7;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnapSlipSpatial.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SnapSlipSpatial";
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		08ACF4590937D5600E333706 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		87CFDC675B3D921B0D2BA756 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9D4F85EE63ACBE9CC0CE2AF9 /* Build configuration list for PBXNativeTarget "SnapSlipSpatial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F79DAEC3D274787EA836EAB8 /* Debug */,
+				87AC411E93E29C0FCB344AD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDF6AC006ACBF0656E2E16E2 /* Build configuration list for PBXNativeTarget "SnapSlipSpatialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91DD61D72421367174D7A7E2 /* Debug */,
+				D93F6C3180B5047CD9191A2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D28D13D4C66E177D2406776 /* Build configuration list for PBXProject "SnapSlipSpatial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08ACF4590937D5600E333706 /* Debug */,
+				87CFDC675B3D921B0D2BA756 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 47306241C69A76088F0471A7 /* Project object */;
+}
